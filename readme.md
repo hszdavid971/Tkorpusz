@@ -17,3 +17,8 @@
     > git commit -m "first commit"
 
 ## Összekapcsolás a távoli repository-val.
+
+- GitHub repository létrehozása
+
+- Távoli és helyi összekapcsolása;
+    > git remote add origin https://token@github.com/hszdavid971/TKorpusz.git
