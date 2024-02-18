@@ -143,32 +143,33 @@
     </div>
 </div>
 
-<div class="row my-3 align-content-center ">
+<div class="row my-3 align-content-center " id="mycards">
 
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/konyha.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/konyha.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/furdoszobaszekreny.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/furdoszobaszekreny.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/kep3.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/kep3.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/asztalosmunkak.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/asztalosmunkak.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
 </div>
-<div class="row my-3 align-content-center ">
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/kep3.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/kep3.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/beepitettszekreny.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/beepitettszekreny.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/furdoszobaszekreny.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/furdoszobaszekreny.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
-        <a href="assets/kep2.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/kep2.jpg" alt="" srcset="" class="img-fluid img"></a>
-    </div>
-</div>
+
+<script>
+    getData("../server/alsokepek.php",renderCards)
+    function renderCards(data){
+        console.log(data);
+        for(let obj of data){
+        document.getElementById("mycards").innerHTML+=`
+        <div class="col-lg-3 col-md-6 col-sm-12 my-2 nagyithato">
+            <a href=${obj.mainImg} data-lightbox="image-1" data-title=${obj.name}><img src=${obj.mainImg} id=${obj.id} alt="" srcset="" class="img-fluid img"></a>
+        </div>
+        `
+        }
+        
+    }
+    getData("../server/carousel.php",renderCarousel){
+        function renderCarousel(data) {
+            console.console.log(data);
+            for(let obj of data){
+                
+
+            }
+        }
+        
+
+
+    }
+</script>

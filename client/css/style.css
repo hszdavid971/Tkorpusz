@@ -1,4 +1,3 @@
-
 /*gombok*/
 .btn {
   background-color: #CC9966;
@@ -12,17 +11,19 @@
   transform: translateX(5px);
 
 }
-#gombletoltes.btn,#gombalso1.btn,#gombalso2.btn,#gombalso3.btn,#emailbutton{
+
+#gombletoltes.btn,#gombalso1.btn,#gombalso2.btn,#gombalso3.btn,#emailbutton,#kontaktgomb.btn,#fooldalgomb.btn{
 
   background-color: #CC9966;
   border-color: #CC9966;
+  color: white;
 }
-#gombletoltes.btn:hover,#gombalso1.btn:hover,#gombalso2.btn:hover,#gombalso3.btn:hover,#emailbutton:hover{
+#gombletoltes.btn:hover,#gombalso1.btn:hover,#gombalso2.btn:hover,#gombalso3.btn:hover,#emailbutton:hover,#kontaktgomb.btn:hover,#fooldalgomb.btn:hover{
   transform: translateY(-5px);
 }
 /*hatter*/
 .hatterkep{
-  background-image: url('assets/backgg.jpg');
+  background-image: url('../assets/backgg.jpg');
   position: relative;
   background-position: center;
   background-repeat:no-repeat;
@@ -30,22 +31,21 @@
 }
 /*Navigációs-menü*/
 #navbar1{  
-  background-color:#F00;
-  opacity: 0.8; 
+  opacity: 0.91; 
   filter:(opacity=50);
 
 }
-.navbar .navbar-nav .nav-link {
+.navbar .navbar-nav .nav-link{
   color: #CC9966;
   font-size: 1.1em;
 }
-.navbar .navbar-nav .nav-link:hover {
+.navbar .navbar-nav .nav-link:hover{
   color: #CC9966;
 }
-.navbar .navbar-nav .nav-item {
+.navbar .navbar-nav .nav-item{
   position: relative;
 }
-.navbar .navbar-nav .nav-item::after {
+.navbar .navbar-nav .nav-item::after{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -57,8 +57,11 @@
   height: 4px;
   transition: all 0.5s;
 }
-.navbar .navbar-nav .nav-item:hover::after {
+.navbar .navbar-nav .nav-item:hover::after{
   width: 100%;
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #CC9966;
 }
 #logoszoveg{
   color: #CC9966;
@@ -67,6 +70,8 @@
 }
 p{
   text-align: justify;
+  text-size-adjust: 150%;
+  font-size: 16px;
 }
 /*Beágyazásokhoz-kell hogy reszponzív legyen*/
 .container3 {
@@ -171,9 +176,6 @@ p{
   margin-right: auto;
   min-width: 100%;
 }
-p{
-  text-align: justify;
-}
 /*Árak*/
 .pricing .card {
   border: none;
@@ -239,6 +241,8 @@ p{
 }
 .naygithato img { transition: all .2s ease-in-out; }
 .nagyithato img:hover { transform: scale(1.1); }
+
+
 
 
    

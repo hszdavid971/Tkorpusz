@@ -1,20 +1,31 @@
-<section id="teteje">
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <h1 class="display-3">Köszöntjük weboldalunkon!</h1>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Üdvözlöm!"><h5><b>T-K</b>orpusz Innova Kft.</h5></cite>
+  </figcaption>
+</figure>
+          <section id="teteje">
             <!--1. rész-->
                     <!--Bemutatkozás,kép-->
             <div class="row  align-items-center my-5 " id="rolunk">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                  <h1>T-Korpusz Innova</h1>
                   <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/bemutatkozaskep.jpg" alt="..." />
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
-                    <h1 class="font-weight-light">Mivel foglalkuzunk?</h1>
-                      <p class="text-justify">Az asztalos egy nagymultú faipari szakma, amelyet a hagyományos kézműves munka mellett egyre inkább a gépi technológia, a digitalizáció jellemez. Az asztalos különböző rendeltetésű és szerkezetű bútorok, nyílászárók és belsőépítészeti munkák elkészítését, szerelését, javítását és felújítását végzi.</p>
-                      <p>Az asztalosiparban közkedvelt és elterjedt faforgácslap (bútorlap) vágása során keletkező élek zárása mind a lap nedvességtől és sérülésektől való védelme, mind a lapszerkezet kevésbé esztétikus kinézetének rejtése érdekében is indokolt. Egy ABS (műanyag alapú élzáró) technológiával védett bútorlap jelentősen ellenállóbb az ütődésekkel szemben mint szabadon hagyott éllel.</p>
+                  <h1 class="font-weight-light">Mivel foglalkozunk?</h1>
+                    <p class="text-justify">Cégünk 2021. -ben alakult. Célunk, hogy fiatal vállalkozásként a modernitást, lendületet képviseljük. Fő profilunk a lapszabászat, élzárás és az egyedi bútorgyártás.</p>
+                    <p class>Lapszabászatunkon rövid határidővel, kiváló minőségben, kedvező árakkal tudjuk kiszolgálni asztalos partnereinket. A megrendelőink által kiválasztott bútoranyagokat és szerelékeket közvetlenül a magyarországi forgalmazóktól rendeljük és asztalos partnereink részére méretre szabjuk, élzárjuk. A jelentősebb magyarországi forgalmazókkal kapcsolatban állunk, ezzel is meggyorsítva partnereink minél rövidebb időn belüli kiszolgálását.</p>
+                    <p>Az asztalosiparban közkedvelt és elterjedt faforgácslap (bútorlap) vágása során keletkező élek zárása mind a lap nedvességtől és sérülésektől való védelme, mind a lapszerkezet kevésbé esztétikus kinézetének rejtése érdekében is indokolt. Egy ABS (műanyag alapú élzáró) technológiával védett bútorlap jelentősen ellenállóbb az ütődésekkel szemben mint szabadon hagyott éllel.</p>
                 </div>
             </div>
             <!-- Szöveg-->
             <div class="card text-white bg-secondary my-5 py-4">
-                <div class="card-body"><p class="text-white m-0">A fa- és bútoripar ágazat 3 éves, szakképzettséget adó képzése. Az asztalos egy nagymultú faipari szakma, amelyet a hagyományos kézműves munka mellett egyre inkább a gépi technológia, a digitalizáció jellemez. Az asztalos különböző rendeltetésű és szerkezetű bútorok, nyílászárók és belsőépítészeti munkák elkészítését, szerelését, javítását és felújítását végzi. Az asztalos az a szakember, akinek munkájával minden ember közvetlen kapcsolatba kerül otthonában és munkahelyén egyaránt. Magas minőségű munkája minden nap örömet okoz a bútorok használóinak.</p></div>
+                <div class="card-body">
+                  <p class="text-white my-2">Cégünk egyedi igények alapján megtervezi, legyártja és beszereli családi házak, vállalatok, közintézmények, tulajdonos vagy akár tervező által megálmodott konyha, nappali, előszoba, fürdőszoba, iroda, tárgyaló és egyéb helyiségeibe tervezett bútorait. Számunkra nincs akadály, a számos lakberendezési stílus között könnyen eligazodunk legyen szó klasszikus vagy modern trendekről.</p>
+                  <p class="text-white my-2">Amennyiben egyedi bútort álmodott meg, annak megtervezésben legyártásában és a beszerelésben is rendelkezésére állunk!</p>
+                </div>
             </div>
           </section>
           <section>
@@ -24,9 +35,11 @@
                   <div class="col-lg-7 col-md-6 col-sm-12"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/kep1.jpg" alt="..." /></div>
                   <div class="col-lg-5 col-md-6 col-sm-12">
                       <h1 class="font-weight-light">Fontos Tudnivalók</h1>
-                      <p>Az asztalos egy olyan szakember, aki különböző bútorokat, ajtókat, ablakokat és belső építészeti elemeket készít, szerel össze, javít, vagy felújít. Munkája során először megbeszéli a megrendelővel, hogy milyen elképzelései vannak, majd helyszíni felmérést végez, hogy megbizonyosodjon az igények megvalósíthatóságáról. Az asztalos gondoskodik az alapanyagok beszerzéséről, kalkulálja a költségeket, és felkészül a munkához szükséges eszközökkel.
-
-                        A munka során használ kézi és gépi eszközöket, mint például fűrészek, szerszámok vagy gépek. Végül a kész terméket a helyszínen szereli fel vagy telepíti. Az asztalos tehát a megrendelő igényeit valósítja meg, és létrehoz vagy javít olyan dolgokat, amelyek szépítik vagy hasznosabbá teszik a lakótereket.</p>
+                      <p>A weboldalunkon megtalálhatóak az élzárással és a lapszabászattal kapcsolatos árak melyeket az <strong>Árak</strong> menüpontban érhet el kategóriákra lebontva.</p>
+                      <p>A nyitvatartást, telephelyet illetve a kapcsolatlétesítéshez kapcsolódó információkat a <strong>Kontakt</strong> menüpont alatt találja meg.</p>
+                      <p>A Bútorlapokhoz és vasalatokhoz tartozó katalógusokat a <strong>Katalógusok</strong> menüpontban találja.</p>
+                      <p>A Referenciaképeket és az eddigi munkáinkról készült fotókat a <strong>Referencia</strong> fül alatt érheti el.</p>
+                      <p>Az anyagrendeléshez tartozó táblázatot a <strong>Főoldalon</strong> érheti el</p>
                   </div>
               </div>
               <!-- Szöveg-->
@@ -41,8 +54,12 @@
                   <div class="col-lg-7 col-md-6 col-sm-12"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/kep2.jpg" alt="..." /></div>
                   <div class="col-lg-5 col-md-6 col-sm-12">
                       <h1 class="font-weight-light">Anyagrendelés táblázat</h1>
-                      <p>Az asztalos szakmában a hagyományos famegmunkáló eszközöktől kezdve, a modern technológiáig mindenféle szerszámot, eszközt ismernünk kell. A fa három alakítási módozatához (hajlítás, forgácsolás, sajtolás) szakemberként a következő szerszámokat használjuk a legtöbbször: véső, fűrész, gyalu, kalapács, elektromos fűrészgépek, körfűrészek, lap vágók, csiszoló és maró gépek.</p>
-                      <button class="text-white btn" id="gombletoltes" href="#tudnivalok"><i class="fa fa-download"></i> Letöltés</button>
+                      <p>Az anyagrendeléshez készült táblázat az alábbi gombra kattintva tölthető le, amelyhez egy rövid útmutatót is mellékeltünk!</p>
+                      <p>A megfelelően kitöltött táblázatot az alábbi e-mail címre szíveskedjék visszaküldeni; </p>
+                      <p><strong>tkorpuszinnovakftweb@gmail.com</strong></p>
+                      <button class="text-white btn my-3" id="gombletoltes" href="#tudnivalok"><i class="fa fa-download"></i> Letöltés</button>
+                      <p>A táblázattal kapcsolatos felmerülő kérdéseket e-mail-ben teheti fel.</p>
+
                   </div>
               </div>
             </section>

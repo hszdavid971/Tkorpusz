@@ -2,18 +2,16 @@
 <section class="pricing py-5">
   <div class="container">
     <div class="row">
+      <h1 class="text-center">Élzárás</h1>
       <!-- Free Tier -->
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Élzárás</h5>
-            <h6 class="card-price text-center">1000 HUF<span class="period">/méter</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center">1-es ABS</h5>
+            <h6 class="card-price text-center">500ft<span class="period">/Méter</span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="bi bi-shield-check"></i></span>Single User</li>
-              <li><span class="fa-li"><i class="bi bi-shield-check"></i></span>5GB Storage</li>
-              <li><span class="fa-li"><i class="bi bi-shield-check"></i></span>Unlimited Public Projects</li>
-              <li><span class="fa-li"><i class="bi bi-shield-check"></i></span>Community Access</li>
+              <li><span class="fa-li"><i class="bi bi-shield-check"></i></span>1-es ABS--1500ft</li>
               <li class="text-muted"><span class="fa-li"><i class="bi bi-shield-check"></i></span>Unlimited
                 Private Projects</li>
               <li class="text-muted"><span class="fa-li"><i class="bi bi-shield-check"></i></span>Dedicated
@@ -33,8 +31,8 @@
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Szabásdíj</h5>
-            <h6 class="card-price text-center">1000 HUF<span class="period">/tábla</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center">Élfólia</h5>
+            <h6 class="card-price text-center">1000 HUF<span class="period">/tekercs</span></h6>
             <hr>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="bi bi-shield-check"></i></span><strong>5 Users</strong></li>
