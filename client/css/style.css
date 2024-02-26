@@ -9,7 +9,6 @@
 }
 .btn:hover {
   transform: translateX(5px);
-
 }
 
 #gombletoltes.btn,#gombalso1.btn,#gombalso2.btn,#gombalso3.btn,#emailbutton,#kontaktgomb.btn,#fooldalgomb.btn{

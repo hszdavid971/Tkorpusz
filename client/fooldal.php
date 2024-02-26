@@ -37,7 +37,6 @@
                       <h1 class="font-weight-light">Fontos Tudnivalók</h1>
                       <p>A weboldalunkon megtalálhatóak az élzárással és a lapszabászattal kapcsolatos árak melyeket az <strong>Árak</strong> menüpontban érhet el kategóriákra lebontva.</p>
                       <p>A nyitvatartást, telephelyet illetve a kapcsolatlétesítéshez kapcsolódó információkat a <strong>Kontakt</strong> menüpont alatt találja meg.</p>
-                      <p>A Bútorlapokhoz és vasalatokhoz tartozó katalógusokat a <strong>Katalógusok</strong> menüpontban találja.</p>
                       <p>A Referenciaképeket és az eddigi munkáinkról készült fotókat a <strong>Referencia</strong> fül alatt érheti el.</p>
                       <p>Az anyagrendeléshez tartozó táblázatot a <strong>Főoldalon</strong> érheti el</p>
                   </div>

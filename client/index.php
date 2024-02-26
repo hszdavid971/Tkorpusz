@@ -55,10 +55,7 @@
                 </div>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="index.php?prog=katalogusok.php">Katalógusok</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link" href="index.php?prog=referenciak2.php">Referenciák</a>
+                <a class="nav-link" href="index.php?prog=referenciak.php">Referenciák</a>
               </li>
               <li class="nav-item mx-3 pr-5">
                 <div class="dropdown">
