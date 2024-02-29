@@ -48,9 +48,9 @@
                 <div class="dropdown">
                     <a class="nav-link dropdown-toggle" id="arakgomb" type="button" data-bs-toggle="dropdown" aria-expanded="false">Árak</a>
                     <ul class="dropdown-menu dropdown-menu-dark text-center">
-                        <li><a class="dropdown-item dropdown-gombok" href="index.php?prog=arak.php">Élzárás</a></li>
-                        <li><a class="dropdown-item dropdown-gombok" href="index.php?prog=arak.php">Szabásdíjak</a></li>
-                        <li><a class="dropdown-item dropdown-gombok" href="index.php?prog=arak.php">Egyéb</a></li>
+                        <li><a class="dropdown-item dropdown-gombok" href="index.php?prog=elzarasdijak.php">Élzárás</a></li>
+                        <li><a class="dropdown-item dropdown-gombok" href="index.php?prog=szabasdijak.php">Szabásdíjak</a></li>
+                        <li><a class="dropdown-item dropdown-gombok" href="index.php?prog=egyebdijak.php">Asztalos Munkák</a></li>
                     </ul>
                 </div>
               </li>
