@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2024. Feb 23. 12:49
--- Kiszolgáló verziója: 10.4.6-MariaDB
--- PHP verzió: 7.3.8
+-- Létrehozás ideje: 2024. Már 18. 11:05
+-- Kiszolgáló verziója: 10.4.28-MariaDB
+-- PHP verzió: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -25,13 +24,56 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Tábla szerkezet ehhez a táblához `adminpanel`
+--
+
+CREATE TABLE `adminpanel` (
+  `id` int(11) NOT NULL,
+  `felhasznalonev` varchar(20) NOT NULL,
+  `jelszo` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+
+--
+-- A tábla adatainak kiíratása `adminpanel`
+--
+
+INSERT INTO `adminpanel` (`id`, `felhasznalonev`, `jelszo`) VALUES
+(3, 'Krisz', '$2y$10$IT3sRBNq0YbsTUdCSG9UNudWc4vpY6vvSSs1VRbuyEvKKuG5kMuzC');
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `elzaras_arak`
+--
+
+CREATE TABLE `elzaras_arak` (
+  `id` int(11) NOT NULL,
+  `nev` varchar(100) NOT NULL,
+  `brutto` varchar(100) NOT NULL,
+  `netto` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+--
+-- A tábla adatainak kiíratása `elzaras_arak`
+--
+
+INSERT INTO `elzaras_arak` (`id`, `nev`, `brutto`, `netto`) VALUES
+(1, '22/0,4 mm', '600', '500'),
+(2, '22/0,8-1 mm', '100', '200'),
+(3, '22/2 mm', '100', '200'),
+(4, '44/1 mm', '100', '200'),
+(5, '44/2 mm', '100', '200');
+
+-- --------------------------------------------------------
+
+--
 -- Tábla szerkezet ehhez a táblához `referenciak_butorok`
 --
 
 CREATE TABLE `referenciak_butorok` (
   `id` int(11) NOT NULL,
-  `name` varchar(200) COLLATE utf8mb4_hungarian_ci NOT NULL,
-  `image` varchar(200) COLLATE utf8mb4_hungarian_ci NOT NULL
+  `name` varchar(200) NOT NULL,
+  `image` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 --
@@ -154,13 +196,20 @@ CREATE TABLE `referenciak_egyeb` (
 
 CREATE TABLE `referenciak_elzaras` (
   `id` int(11) NOT NULL,
-  `name` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `image` varchar(200) COLLATE utf8_hungarian_ci NOT NULL
+  `name` varchar(200) NOT NULL,
+  `image` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
 --
 -- Indexek a kiírt táblákhoz
 --
+
+--
+-- A tábla indexei `adminpanel`
+--
+ALTER TABLE `adminpanel`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `felhasznalonev` (`felhasznalonev`);
 
 --
 -- A tábla indexei `referenciak_butorok`
@@ -183,6 +232,12 @@ ALTER TABLE `referenciak_elzaras`
 --
 -- A kiírt táblák AUTO_INCREMENT értéke
 --
+
+--
+-- AUTO_INCREMENT a táblához `adminpanel`
+--
+ALTER TABLE `adminpanel`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT a táblához `referenciak_butorok`

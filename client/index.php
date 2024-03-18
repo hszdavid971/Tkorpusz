@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="hu">
   <head>
@@ -19,6 +22,11 @@
     <link href="lightbox/src/css/lightbox.css" rel="stylesheet"/>
     <script src="lightbox/src/js/lightbox.js"></script>
     <script src="js/getData.js"></script>
+    <script src="js/inlineEdit_elzaras.js"></script>
+    <script src="js/inlineEdit_szabas.js"></script>
+    <script src="js/inlineEdit_egyeb.js"></script>
+
+
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -57,6 +65,20 @@
               <li class="nav-item mx-3">
                 <a class="nav-link" href="index.php?prog=referenciak.php">Referenciák</a>
               </li>
+              <?php
+              if(isset($_SESSION['felhasznalonev'])){
+                  echo "
+                  <li class='nav-item mx-3'>
+                    <a class='nav-link' href='index.php?prog=elzaras_adminpanel.php'>Adminpanel</a>
+                  </li>
+                  <li class='nav-item mx-3'>
+                    <a class='nav-link' href='index.php?prog=logout.php'>Logout</a>
+                  </li>
+                  
+                  ";
+              }
+              ?>
+
               <li class="nav-item mx-3 pr-5">
                 <div class="dropdown">
                     <a class="nav-link dropdown-toggle" id="kontaktgomb" type="button" data-bs-toggle="dropdown" aria-expanded="false">Kontakt</a>
@@ -93,6 +115,9 @@
           <button class="text-white btn bi bi-instagram ikon" href="#videok" id="gombalso1"></button>
           <button class="text-white btn bi bi-facebook ikon" href="#videok" id="gombalso2"></button>
           <button class="text-white btn bi bi-twitter ikon" href="#videok" id="gombalso3"></button>
+        </div>
+        <div class="d-flex flex-row-reverse">        
+        <a href="index.php?prog=login.php" target="_blank" rel="noopener noreferrer">Login</a>
         </div>
     </footer>
   </body>
