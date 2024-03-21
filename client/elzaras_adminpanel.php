@@ -1,4 +1,7 @@
 <?php
+if(!isset($_SESSION['felhasznalonev'])){
+    header("Location: index.php");
+}
 include '../server/adminkapcsolodas.php';
 $sql='select * from elzaras_arak';
 $stmt=$db->query($sql);
