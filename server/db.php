@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db_name = 'tkorpusz';
-$db_username = 'root'; 
-$db_password = ''; 
+$db_username = 'tkorpusz'; 
+$db_password = 'tkorpusz'; 
 
 $options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC];     
 try{

@@ -16,15 +16,14 @@
                 <div class="col-lg-5 col-md-6 col-sm-12">
                   <h1 class="font-weight-light">Mivel foglalkozunk?</h1>
                     <p class="text-justify">Cégünk 2021. -ben alakult. Célunk, hogy fiatal vállalkozásként a modernitást, lendületet képviseljük. Fő profilunk a lapszabászat, élzárás és az egyedi bútorgyártás.</p>
-                    <p class>Lapszabászatunkon rövid határidővel, kiváló minőségben, kedvező árakkal tudjuk kiszolgálni asztalos partnereinket. A megrendelőink által kiválasztott bútoranyagokat és szerelékeket közvetlenül a magyarországi forgalmazóktól rendeljük és asztalos partnereink részére méretre szabjuk, élzárjuk. A jelentősebb magyarországi forgalmazókkal kapcsolatban állunk, ezzel is meggyorsítva partnereink minél rövidebb időn belüli kiszolgálását.</p>
-                    <p>Az asztalosiparban közkedvelt és elterjedt faforgácslap (bútorlap) vágása során keletkező élek zárása mind a lap nedvességtől és sérülésektől való védelme, mind a lapszerkezet kevésbé esztétikus kinézetének rejtése érdekében is indokolt. Egy ABS (műanyag alapú élzáró) technológiával védett bútorlap jelentősen ellenállóbb az ütődésekkel szemben mint szabadon hagyott éllel.</p>
+                    <p class="text-justify">Lapszabászatunkon rövid határidővel, kiváló minőségben, kedvező árakkal tudjuk kiszolgálni asztalos partnereinket. A megrendelőink által kiválasztott bútoranyagokat és szerelékeket közvetlenül a magyarországi forgalmazóktól rendeljük és asztalos partnereink részére méretre szabjuk, élzárjuk. A jelentősebb magyarországi forgalmazókkal kapcsolatban állunk, ezzel is meggyorsítva partnereink minél rövidebb időn belüli kiszolgálását.</p>
                 </div>
             </div>
             <!-- Szöveg-->
             <div class="card text-white bg-secondary my-5 py-4">
                 <div class="card-body">
-                  <p class="text-white my-2">Cégünk egyedi igények alapján megtervezi, legyártja és beszereli családi házak, vállalatok, közintézmények, tulajdonos vagy akár tervező által megálmodott konyha, nappali, előszoba, fürdőszoba, iroda, tárgyaló és egyéb helyiségeibe tervezett bútorait. Számunkra nincs akadály, a számos lakberendezési stílus között könnyen eligazodunk legyen szó klasszikus vagy modern trendekről.</p>
-                  <p class="text-white my-2">Amennyiben egyedi bútort álmodott meg, annak megtervezésben legyártásában és a beszerelésben is rendelkezésére állunk!</p>
+                  <p class="text-white my-2 text-justify">Cégünk egyedi igények alapján megtervezi, legyártja és beszereli családi házak, vállalatok, közintézmények, tulajdonos vagy akár tervező által megálmodott konyha, nappali, előszoba, fürdőszoba, iroda, tárgyaló és egyéb helyiségeibe tervezett bútorait. Számunkra nincs akadály, a számos lakberendezési stílus között könnyen eligazodunk legyen szó klasszikus vagy modern trendekről.</p>
+                  <p class="text-white my-2 text-justify">Amennyiben egyedi bútort álmodott meg, annak megtervezésben legyártásában és a beszerelésben is rendelkezésére állunk!</p>
                 </div>
             </div>
           </section>
@@ -32,33 +31,35 @@
               <!--2. rész-->
                       <!--Tudnivalók-->
               <div class="row  align-items-center my-5" id="tudnivalok">
-                  <div class="col-lg-7 col-md-6 col-sm-12"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/kep1.jpg" alt="..." /></div>
+                  <div class="col-lg-7 col-md-6 col-sm-12"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/cegfoto.png" alt="..." /></div>
                   <div class="col-lg-5 col-md-6 col-sm-12">
-                      <h1 class="font-weight-light">Fontos Tudnivalók</h1>
-                      <p>A weboldalunkon megtalálhatóak az élzárással és a lapszabászattal kapcsolatos árak melyeket az <strong>Árak</strong> menüpontban érhet el kategóriákra lebontva.</p>
-                      <p>A nyitvatartást, telephelyet illetve a kapcsolatlétesítéshez kapcsolódó információkat a <strong>Kontakt</strong> menüpont alatt találja meg.</p>
-                      <p>A Referenciaképeket és az eddigi munkáinkról készült fotókat a <strong>Referencia</strong> fül alatt érheti el.</p>
-                      <p>Az anyagrendeléshez tartozó táblázatot a <strong>Főoldalon</strong> érheti el</p>
+                      <h1 class="font-weight-light">Tudnivalók</h1>
+                      <p class="text-justify">A weboldalunkon megtalálhatóak az élzárással és a lapszabászattal kapcsolatos árak melyeket az <strong>Árak</strong> menüpontban érhet el kategóriákra lebontva.</p>
+                      <p class="text-justify">A nyitvatartást, telephelyet illetve a kapcsolatlétesítéshez kapcsolódó információkat a <strong>Kontakt</strong> menüpont alatt találja meg.</p>
+                      <p class="text-justify">A Referenciaképeket és az eddigi munkáinkról készült fotókat a <strong>Referencia</strong> fül alatt érheti el.</p>
+                      <p class="text-justify">Az anyagrendeléshez tartozó táblázatot a <strong>Főoldalon</strong> érheti el</p>
                   </div>
               </div>
               <!-- Szöveg-->
               <div class="card col text-white bg-secondary my-5 py-4">
-                  <div class="card-body"><p class="text-white m-0">Az asztalos szakma azoknak a fiataloknak ajánlott, akik élvezik a fával való munkát és érdeklődnek a bútorok és belsőépítészeti elemek iránt. Ha kreatívak és érdeklődnek a modern lakberendezési trendek iránt, akkor ez a szakma izgalmas lehetőségeket kínálhat számukra.</p></div>
+                  <div class="card-body"><p class="text-white m-0 class="text-justify"">Elkötelezettek vagyunk, hogy a legjobb minőségű bútorlapokat hozzuk precíz, pontos méretre vágással, élzárásokkal. Szolgáltatásainkat asztalosoknak, lakossági és üzleti ügyfeleknek egyaránt ajánljuk.</p></div>
               </div>
             </section>
           <section>
               <!--3. rész-->
                       <!--Anyagrendelés táblázat,sablon letöltés-->
               <div class="row  align-items-center my-5" id="anyagrendeles">
-                  <div class="col-lg-7 col-md-6 col-sm-12"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/kep2.jpg" alt="..." /></div>
-                  <div class="col-lg-5 col-md-6 col-sm-12">
-                      <h1 class="font-weight-light">Anyagrendelés táblázat</h1>
-                      <p>Az anyagrendeléshez készült táblázat az alábbi gombra kattintva tölthető le, amelyhez egy rövid útmutatót is mellékeltünk!</p>
-                      <p>A megfelelően kitöltött táblázatot az alábbi e-mail címre szíveskedjék visszaküldeni; </p>
-                      <p><strong>tkorpuszinnovakftweb@gmail.com</strong></p>
-                      <button class="text-white btn my-3" id="gombletoltes" href="#tudnivalok"><i class="fa fa-download"></i> Letöltés</button>
-                      <p>A táblázattal kapcsolatos felmerülő kérdéseket e-mail-ben teheti fel.</p>
+                  <div class="col-lg-7 col-md-6 col-sm-12">
+			<a class="tablazat" href="assets/tablazat_minta.png" data-lightbox="example-set" data-title="Tablazat minta"><img class="img img-fluid rounded mb-4 mb-lg-0" src="assets/tablazat_minta.png" alt=""/></a>
+		</div>
 
+		<div class="col-lg-5 col-md-6 col-sm-12">
+                      <h1 class="font-weight-light">Anyagrendelés</h1>
+                      <p class="text-justify">Az anyagrendeléshez készült táblázat az alábbi gombra kattintva tölthető le.</p>
+                      <p class="text-justify">A megfelelően kitöltött táblázatot az alábbi e-mail címre szíveskedjék visszaküldeni; </p>
+                      <p><strong>tkorpuszinnovakftweb@gmail.com</strong></p>
+                      <a class="text-white btn my-3" id="gombletoltes" href="assets/sablon.xls"><i class="fa fa-download"></i> Letöltés</a>
+                      <p class="text-justify">A táblázattal kapcsolatos felmerülő kérdéseket e-mail-ben teheti fel.</p>
                   </div>
               </div>
             </section>

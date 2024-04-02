@@ -3,7 +3,7 @@ if(!isset($_SESSION['felhasznalonev'])){
     header("Location: index.php");
  }
 include '../server/adminkapcsolodas.php';
-$sql='select * from elzaras_arak';
+$sql='select * from szabas_arak';
 $stmt=$db->query($sql);
 $str='';
 ?>
@@ -19,8 +19,8 @@ $str='';
             <tr>
                 <th class="table-header">Id</th>
                 <th class="table-header">Mértékegység</th>
-                <th class="table-header">Bruttó Ft/Fm</th>
-                <th class="table-header">Nettó Ft/Fm</th>
+                <th class="table-header">Bruttó Ft</th>
+                <th class="table-header">Nettó Ft</th>
             </tr>
         </thead>
         <tbody>
@@ -42,6 +42,5 @@ $str='';
             <?php }?> 
         </tbody>
     </table>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/inlineEdit_szabas.js"></script>

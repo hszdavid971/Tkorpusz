@@ -5,7 +5,8 @@
     <div class="col-lg-5 col-md-5 col-sm-12" id="nyitvatartas">
         <h1 class="font-weight-light">Telephely és nyitvatartás</h1>
         <p>Cím: Kecskemét, Kiskőrösi út 11-13, 6000</p>
-        <p>mail@email.com</p>
+        <p>tkorpuszinnovakftweb@gmail.com</p>
+        <p>Adószám: 27525922-2-03</p>
         <table class="table table-striped">
             <thead>
             <tr>
@@ -16,23 +17,23 @@
             <tbody>
             <tr>
                 <th scope="row">Hétfő</th>
-                <td>8:00-17:00</td>
+                <td>8:00-16:00</td>
             </tr>
             <tr>
                 <th scope="row">Kedd</th>
-                <td>8:00-17:00</td>
+                <td>8:00-16:00</td>
             </tr>
             <tr>
                 <th scope="row">Szerda</th>
-                <td>8:00-17:00</td>
+                <td>8:00-16:00</td>
             </tr>
             <tr>
                 <th scope="row">Csütörtök</th>
-                <td>8:00-17:00</td>
+                <td>8:00-16:00</td>
             </tr>
             <tr>
                 <th scope="row">Péntek</th>
-                <td>8:00-17:00</td>
+                <td>8:00-16:00</td>
             </tr>
             <tr>
                 <th scope="row">Szombat</th>
@@ -44,21 +45,21 @@
             </tr>
             </tbody>
         </table>
-        <a class="btn btn-xlg" href="tel:123-456-7890" style="background-color:#c19a6b; color: white;">
-            <span class="glyphicon glyphicon-earphone"></span>+36701234567
+        <a class="btn btn-xlg" href="tel:+36-30-5121311" style="background-color:#c19a6b; color: white;">
+            <span class="glyphicon glyphicon-earphone"></span>+36305121311
         </a>
     </div>
 </div>
     <div class="row" id="emailkuldo">
         <script src="kuldes.js"></script>
-        <div class="col-lg-7 col-md-7 col-sm-12 my-5">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/kep1.jpg" alt="..."/>
+        <div class="col-lg-7 col-md-7 col-sm-12 my-2">
+        <img class="img-fluid rounded mb-2" src="assets/emailkep.png" alt="..."/>
         </div>
         <div class="col-lg-5 col-md-5 col-sm-12 my-5 content-center">
             <h2 id="emailh2" class="my-2 text-center">Lépjen velünk kapcsolatba</h2>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email-cím</label>
-                <input type="email" class="form-control" placeholder="TKorpuszkft@gmail.com" id="email" required>
+                <input type="email" class="form-control" placeholder="tkorpuszinnovakftweb@gmail.com" id="email" required>
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Tárgy</label>
@@ -66,7 +67,13 @@
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Üzenet</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
+                <textarea class="form-control" id="message" rows="3" maxlength="300" required></textarea>
+                <div id="count">
+                    <span id="currentlength">0</span>
+                    <span id="maxlength"> /300</span>
+                </div>
+
+
             </div>
             <button class="btn" style="background-color:#c19a6b; color: white;"  id="emailgomb" href="#tudnivalok" onclick="Kuldes(event)">Küldés</button>
             <p id="alert"></p>
@@ -76,6 +83,16 @@
 
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    $('textarea').keyup(function(){
+        var szamolo=$(this).val().length,
+        currentlength=$('#currentlength'),
+        maxlength=$('#maxlength'),
+        count=$('#count');
+        currentlength.text(szamolo);
+
+    });
 </script>
 <script type="text/javascript">
    (function(){

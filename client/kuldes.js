@@ -5,12 +5,20 @@ function  Kuldes(e){
     let em=document.getElementById('email').value
     let t=document.getElementById('targy').value
     let m=document.getElementById('message').value
+    
 
     if(!em||!t||!m){
         renderMsg('Az összes kitöltése kötelező!')
         return
 
     }
+    else{
+        if(!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(em)){
+            renderMsg('Az email mező kitöltése nem megfelelő!')
+            return
+        }
+    }
+
 
     const parameterek={
 
